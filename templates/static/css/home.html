@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Personal Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to my Personal Portfolio!</h1>
+            <p>Hello, I am Aravind, a web developer with 2 years of experience.</p>
+            <img src="https://via.placeholder.com/150" alt=" aravind">
+        </section>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <ul>
+                <li><strong>Skills:</strong> HTML, CSS,Python, Flask</li>
+                <li><strong>Experience:</strong> 5+ years</li>
+                <li><strong>Education:</strong> B.Tech in Computer Science</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Aravind</p>
+    </footer>
+</body>
+</html>
